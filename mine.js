@@ -11,7 +11,7 @@ bitcoin.initEccLib(ecc)
 // Vowels:  a,e,u
 // Consonants: c,d,f,g,h,k,l,m,n,p,q,r,s,v,w,x,y,z
 // Numbers: 9,8,2,5,4,0,3,7
-const words = ["cunt", "fuck", "rune"]
+const words = ["fuck", "rune"]
 
 function generateTaprootAddress() {
   const mnemonic = bip39.generateMnemonic(128)
