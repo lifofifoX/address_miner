@@ -42,7 +42,7 @@ if (isMainThread) {
   const coreCount = require('os').cpus().length
   const threadsCount = Math.max(1, Math.floor(coreCount / 4))
 
-  for (let i = 0; i < threadsCount / 4; i++) {
+  for (let i = 0; i < threadsCount; i++) {
     new Worker(__filename)
   }
 } else {
